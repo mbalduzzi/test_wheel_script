@@ -1,0 +1,1 @@
+# jurine_odoo
