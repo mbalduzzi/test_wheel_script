@@ -1,0 +1,50 @@
+
+--------------------------
+Mon Nov 27 14:56:17 2017
+BZR:
+line 27:         bzr https://launchpad.net/new-report-intrastat/7.0 parts/intrastat ${addons_version:intrastat}
+NOTE: Do not forget to remove/update corresponding line in [addons_version].
+
+
+VERSIONS:
+pycups: 1.9.72
+unidecode: 0.4.14
+babel: 1.3
+pypdf: 1.13
+pypdf2: 1.18
+psutil: 2.1.1
+mako: 1.0.2
+paramiko: 1.14.0
+werkzeug: 0.8.3
+erppeek: 1.6.1
+decorator: 3.4.0
+unicodecsv: 0.13.0
+
+
+EGGS:
+['eggs += nltk', '        paramiko', '        requests', '        requests-oauthlib', '        unidecode', '        pyPDF2', '        decorator', '        psutil', '        pyPdf', '        pycups', '        unicodecsv']
+['eggs += nltk', '        paramiko', '        requests', '        requests-oauthlib', '        unidecode', '        pyPDF2', '        decorator', '        psutil', '        pyPdf', '        pycups', '        unicodecsv']
+
+
+TRAVIS_BOOTSTRAP:
+
+
+TRAVIS_CACHE:
+TRAVIS_CACHE
+
+
+VERSIONS_DIFF:
+[!] Library extracted : pycups- version :1.9.72
+[!] Library by default: pycups- version :1.9.73
+[>] Choice: 1.9.73
+[!] Library extracted : mako- version :1.0.2
+[!] Library by default: mako- version :1.0.0
+[>] Choice: 1.0.0
+[!] Library extracted : paramiko- version :1.14.0
+[!] Library by default: paramiko- version :2.2.1
+[>] Choice: 1.14
+[!] Library extracted : werkzeug- version :0.8.3
+[!] Library by default: werkzeug- version :0.9.6
+[>] Choice: 0.9.6
+
+
